@@ -1,0 +1,45 @@
+.cell-page {
+  width: 150px;
+  height: 100px;
+  border: solid 2px rgb(98, 0, 238);
+  border-radius: 6px;
+  padding: 10px;
+  color: rgb(98, 0, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  .title-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .marker-icon {
+      font-size: 20px;
+    }
+  }
+  .number-area {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    background: rgb(98, 0, 238);
+    color: white;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .oval {
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assets/oval.png");
+    background-size: cover;
+    position: absolute;
+    bottom: -11px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
